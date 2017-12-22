@@ -4,6 +4,14 @@
 
 Scan new objects added to any s3 bucket using AWS Lambda. [more details in this post](https://engineering.upside.com/s3-antivirus-scanning-with-lambda-and-clamav-7d33f9c5092e)
 
+## Deploy to AWS (eu-west-1)
+```
+make
+cd terraform
+terraform plan
+terraform apply
+```
+
 ## Features
 
 - Easy to install
